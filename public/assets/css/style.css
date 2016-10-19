@@ -1,0 +1,332 @@
+/*begin global styling*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+h1{ 
+  display: block;
+  font-size: 4em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+/*end global styling*/
+
+/*begin navbar overrides*/
+.navbar-inverse .navbar-toggle {
+    border: 2px solid #ffffff;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    border: 2px solid #ffffff;
+}
+
+.navbar-toggle {
+  position: absolute;
+  left: 25px;
+  top: 11px;
+  border-radius: 50%;
+  height: 43px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: transparent;
+  border: none;
+}
+
+.divider{
+  background-color: #ffffff;
+  height: 1px;
+  width: 100%;
+}
+/*begin navbar overrides*/
+.pad-right-125{
+  padding-right: 125px;
+}
+
+.pad-left-25{
+  padding-left: 30px;
+}
+
+.marg-neg-20{
+  margin-left: -20px;
+}
+
+.marg-bottom-32{
+  margin-bottom: 32px;
+}
+
+.no-marg-bottom{
+  margin-bottom: 0px;
+}
+
+.line-pad{
+  line-height: 30px;
+}
+
+.float-right{
+  float: right;
+}
+
+.hidden{
+  display: none;
+}
+
+.header{
+  position: relative;
+  width: 100%;
+  height: 80px;
+  top: 20px;
+  background-color: #008000;
+  border: none;
+  z-index: 100;
+}
+
+.head-wrap{
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.logo-dollar{
+  position: absolute;
+  top: 21px;
+  left: 105px;
+  width: 80px;
+  z-index: 102;
+}
+
+.logo-text{
+  position: relative;
+  top: 15px;
+  /*left: 205px;*/
+  color: #ffffff;
+  font-size: 35px;
+  z-index: 100;
+}
+
+.circle{
+  position: absolute;
+  top: 0;
+  left: 82px;
+  background-color: #ffffff;
+  width: 125px;
+  height: 125px;
+  border: 3px solid #008000;
+  border-radius: 50%;
+  z-index: 101;
+}
+
+.cash-nav-wrap{
+  margin-top: 25px;
+}
+
+.resp-nav-wrap{
+  margin-top: 20px;
+  background-color: #000000;
+}
+
+.cash-nav{
+  margin-left: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 27px 15px 30px 15px;
+}
+
+.cash-nav:hover{
+  text-decoration: none;
+  color: #008000;
+  background-color: #000000;
+}
+
+.resp-cash-nav{
+  margin-left: 27px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.resp-cash-nav:hover{
+  text-decoration: none;
+  color: #008000;
+}
+
+.li-pad{
+  padding: 10px 0px 10px 0px;
+}
+
+.piggy{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  opacity: 0.5;
+  z-index: 99;
+}
+
+.graph-foot{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /*opacity: 0.5;*/
+  z-index: 99;
+}
+
+/*Begin Sign Up Style*/
+.charting{
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  z-index: 100;
+  /*border: 1px solid red;*/
+}
+
+.marg-top{
+  margin-top: 50px;
+}
+
+.money-input{
+  float: left;
+  margin-right: 25px;
+  color: #ffffff;
+  font-size: 25px;
+  background: url("../images/money_input2.png") no-repeat;
+  width: 434px;
+  height: 54px;
+}
+
+.money-input:focus{
+  border-color: #008000;
+  box-shadow: 0 0 10px #008000;
+}
+
+.money-input::-webkit-input-placeholder {
+   color: #ffffff;
+}
+
+.money-input:-moz-placeholder { /* Firefox 18- */
+   color: #ffffff;  
+}
+
+.money-input::-moz-placeholder {  /* Firefox 19+ */
+   color: #ffffff;  
+}
+
+.money-input:-ms-input-placeholder {  
+   color: #ffffff;  
+}
+
+.form-control{
+  border: none;
+}
+
+.user-square{
+  width: 54px;
+  height: 54px;
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 5px;
+}
+
+.terms-link{
+  color: #008000;
+}
+
+.terms-link:hover{
+  text-decoration: none;
+  color: #008000;
+}
+
+.terms-text{
+  font-weight: bold;
+  font-size: 16.9px;
+}
+
+.user-square-check {
+  float: left;
+  margin-bottom: 25px;
+  width: 54px;
+  height: 54px;
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 5px;
+  margin-right: 25px;
+}
+
+.sub-sign{
+  width: 436px;
+  height: 55px;
+  background: url("../images/money_button_dark.png") no-repeat;
+}
+
+.sub-sign:hover{
+  background: url("../images/money_button_light.png") no-repeat;
+}
+/*End Sign Up Style*/
+
+.outline{
+  border: 1px solid red;
+}
+
+.col-pad{
+  position: relative;
+  padding: 0px 15px 0px 15px;
+  z-index: 100;
+}
+
+.home-img-wrap{
+  position: relative;
+  max-width: 100%;
+  padding: 50px 15px 15px 15px;
+  margin-bottom: 15px;
+  border: 3px solid #000000;
+  /*background-color: rgba(255,255,255,0.7);*/
+  background-color: rgba(223,225,223,0.5);
+  background-blend-mode: screen;
+}
+
+.home-img-title{
+  position: absolute;
+  top: 10px;
+  color: #008000;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.home-img{
+  max-width: 100%;
+  border: 1px solid #000000;
+}
